@@ -2,9 +2,8 @@ $schema: https://azuremlschemas.azureedge.net/latest/batchDeployment.schema.json
 name: cfiar-dt-batch-deployment
 endpoint_name: cfiar-endpoint-batch
 model: 
-  azureml:cifar_net.pt:5
+  azureml:cifar_net.pt
 code_configuration:
-  code: ./data-science/src/
   scoring_script: batch_score.py
  
 environment: azureml:AzureML-pytorch-1.9-ubuntu18.04-py37-cuda11.0.3-gpu-inference:1
