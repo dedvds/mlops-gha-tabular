@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/batchDeployment.schema.json
 name: cfiar-dt-batch-deployment
-endpoint_name: cfiar-endpoint-batch
+endpoint_name: dvds-bep-mlopsv2-8756prod
 model: 
   azureml:cifar_net.pt
 code_configuration:
