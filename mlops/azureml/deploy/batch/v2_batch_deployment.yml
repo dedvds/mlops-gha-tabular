@@ -4,9 +4,7 @@ endpoint_name: cfiar-endpoint-batch
 model: 
   azureml:cifar_net.pt
 code_configuration:
-  code:./
   scoring_script: batch_score.py
- 
 environment: azureml:AzureML-pytorch-1.9-ubuntu18.04-py37-cuda11.0.3-gpu-inference:1
 compute: azureml:gpu-cluster
 resources:
